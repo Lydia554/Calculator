@@ -1,0 +1,32 @@
+* {
+    font-family: 'Arial';   
+}
+
+button,
+select,
+input {
+    border:30px solid #00FFFF;
+    padding: 30px;
+    outline: 0px;
+    background-color: #00FFFF;
+}
+
+button {
+    transition: background-color 250ms linear,
+                            color 250ms linear,
+                             border 250ms linear;
+     cursor: pointer;
+         border: 30px solid #00FFFF          
+}
+
+button:hover {
+   background-color: #00FFFF; 
+   color: #00FFFF
+}
+
+
+#answer {
+    font-size: 100px;
+    text-align: center;
+    background-color:#00FFFF ;
+}
